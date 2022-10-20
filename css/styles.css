@@ -1,0 +1,112 @@
+nav {
+  background-color: #222533;
+}
+
+.landing {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../Images/banner.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.landing .container {
+  min-height: calc(100vh - 94px);
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+#section-2 {
+  background-image: url("../Images/img1.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+  padding: 4.8rem 0;
+}
+
+#section-3 {
+  padding: 4.8rem 0;
+  background-image: url("../Images/bg4.jpg");
+  background-size: cover;
+}
+
+#section-3 .cards {
+  margin-top: 9rem;
+}
+
+#section-3 img {
+  padding: 3.2rem;
+  border-radius: 50%;
+
+  margin: -8rem auto;
+}
+
+#section-3 .card {
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 8rem;
+}
+
+#section-4 {
+  padding: 4.8rem 0;
+}
+
+#section-4 figure {
+  position: relative;
+}
+
+#section-4 figure figcaption {
+  position: absolute;
+  bottom: 0;
+
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  margin-bottom: 0 !important;
+}
+
+.radius {
+  border-radius: 1.2rem;
+}
+
+#section-5 {
+  padding: 4.8rem 0;
+  background-image: linear-gradient(
+      RGBA(99, 94, 86, 0.6),
+      RGBA(99, 94, 86, 0.6)
+    ),
+    url("../Images/bg2.jpg");
+}
+
+#section-6 {
+  padding: 4.8rem 0;
+
+  background-image: url("../Images/bg3.jpg");
+}
+
+#section-7 {
+  padding: 1.8rem 0;
+  border-bottom: 2.8rem solid #656b72;
+}
+
+footer {
+  padding: 4.8rem 0 0 0;
+  background-image: linear-gradient(RGBA(0, 0, 0, 0.8), RGBA(0, 0, 0, 0.8)),
+    url("../Images/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer .date {
+  width: 5rem;
+  height: 5rem;
+}
+
+@media (min-width: 992px) {
+  #section-3 img {
+    padding: 2.4rem !important;
+  }
+
+  #section-3 .card:last-of-type {
+    margin-bottom: 0;
+  }
+}
